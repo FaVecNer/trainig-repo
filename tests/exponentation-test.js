@@ -1,4 +1,4 @@
-import { exponentationTest1 } from '/exponentation-test1.js'
+import { exponentationTest1 } from '..calculator/exponentation'
 import { exponentationTest2 } from '/exponentation-test2.js'
 import { exponentationTest3 } from '/exponentation-test3.js'
 import { exponentationTest4 } from '/exponentation-test4.js'
