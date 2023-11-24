@@ -1,14 +1,9 @@
-if (isNaN(n1) || n1 === undefined || n1 === null || n1 === Infinity || isNaN(n2) || n2 === undefined || n2 === null || n2 === Infinity) {
-    console.error("test failed, input correct number")
+import { exponentation } from './exponentation-test.js'
+export function exponentationTest3(num1, num2) {
+    try {
+        var otv = exponentation(num1, num2)
+    }
+    catch (r) {
+        console.error(r)
+    }
 }
-else {
-
-}
-let otv = exponentation(2, 0)
-if (otv === 1) {
-    console.log("Successful test" + otv)
-}
-else {
-    console.error("Test failed" + otv)
-}
-return Math.pow(n1, n2);
