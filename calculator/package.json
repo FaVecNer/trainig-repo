@@ -2,12 +2,10 @@
   "name": "exponentatiton",
   "version": "1.0.0",
   "description": "exponentation",
-  "main": "tests.js",
+  "main": "exponentation.js",
+  "type": "module",
   "directories": {
     "test": "tests"
-  },
-  "scripts": {
-    "test": "exponentation.js"
   },
   "author": "",
   "license": "ISC"

@@ -1,4 +1,4 @@
-import { exponentation } from '..calculator/exponentation.js'
+import { exponentation } from './calculator/exponentation.js'
 export function exponentationTest1(n1, n2) {
     let otv = exponentation(n1, n2)
     if (otv === 8) {
