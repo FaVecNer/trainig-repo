@@ -20,6 +20,7 @@
         "dot null scob plus"
         "ydal ravn exp";
     grid-gap: 7px;
+    grid-template-areas: calc();
 
 }
 
