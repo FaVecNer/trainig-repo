@@ -1,7 +1,7 @@
 .calc {
     margin: 50px auto;
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 700px;
     border: 1px solid #000;
     border-radius: 20px;
     background: #000;
@@ -19,6 +19,7 @@
         "one two three min"
         "dot null scob plus"
         "ydal ravn exp";
+    grid-gap: 7px;
 
 }
 
