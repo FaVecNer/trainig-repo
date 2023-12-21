@@ -11,6 +11,17 @@
     box-shadow: 4px 4px 4px #4f4f4f;
 }
 
+.buttons {
+    display: grid;
+    grid-template-areas:
+        "seven eight nine del"
+        "four five sixt umn"
+        "one two three min"
+        "dot 0 () plus"
+        "ydal ravn exp";
+
+}
+
 .btn {
     width: 60px;
     height: 60px;
