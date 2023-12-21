@@ -15,7 +15,7 @@
     display: grid;
     grid-template-areas:
         "seven eight nine del"
-        "four five sixt umn"
+        "four five six umn"
         "one two three min"
         "dot null scob plus"
         "ydal ravn exp";
