@@ -36,6 +36,12 @@
     user-select: none;
 }
 
+.btn.ravn {
+    grid-area: ravn;
+    width: 100%;
+    border-radius: 34px;
+}
+
 .btn:hover {
     filter: brightness(120%);
 
