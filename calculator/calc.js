@@ -30,9 +30,21 @@ document.querySelector('.buttons').onclick = (event) => {
     const key = event.target.textContent;
     //если нажаты кнопки 0-9 или . 
     if (digit.includes(key)) {
-        a += key;
+        if (b === '' && sign === '') {
+
+            a += key;
+            console.log(a, b, sign);
+            out.textContent = a;
+        }
+        else if (a !== '' && b !== '' && finish) {
+
+        }
+        else {
+            b += key;
+            out.textContent = a;
+        }
         console.log(a, b, sign);
-        out.textContent = a;
+        return;
     }
 
     if (action.includes(key)) {
