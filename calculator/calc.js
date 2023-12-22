@@ -2,7 +2,7 @@ let a = ''; //first num
 let b = ''; //second num
 let sign = '';//знак операции
 let finish = false;
-document.querySelector('.C').onclick = clearAll;
+
 const digit = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.'];
 const action = ['-', '+', 'X', '/', '^'];
 
@@ -35,4 +35,10 @@ document.querySelector('.buttons').onclick = (event) => {
         out.textContent = a;
     }
 
+    if (action.includes(key)) {
+        sign = key;
+        out.textContent = sign;
+        console.log(a, b, sign);
+        return;
+    }
 }
