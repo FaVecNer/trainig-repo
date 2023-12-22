@@ -10,10 +10,10 @@ const action = ['-', '+', 'X', '/', '^'];
 const out = document.querySelector('.calc-screen p')
 
 function clearAll() {
-    let a = '';
-    let b = '';
-    let sign = '';
-    let finish = false;
+    a = '';
+    b = '';
+    sign = '';
+    finish = false;
     out.textContent = 0;
 }
 
@@ -37,7 +37,9 @@ document.querySelector('.buttons').onclick = (event) => {
             out.textContent = a;
         }
         else if (a !== '' && b !== '' && finish) {
-
+            b = key;
+            finish = false;
+            out.textContent = a;
         }
         else {
             b += key;
@@ -56,6 +58,7 @@ document.querySelector('.buttons').onclick = (event) => {
 
     //нажато =
     if (key === '=') {
+        if (b === '') b = a;
         switch (sign) {
             case "^":
                 a = Math.pow(a, b);
