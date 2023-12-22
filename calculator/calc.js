@@ -25,7 +25,7 @@ document.querySelector('.buttons').onclick = (event) => {
     //Нажато очищение C
     if (event.target.classList.contains('C')) return;
 
-    our.textContent = '';
+    out.textContent = '';
     //получаю нажатую кнопку
     const key = event.target.textContent;
     //если нажаты кнопки 0-9 или . 
