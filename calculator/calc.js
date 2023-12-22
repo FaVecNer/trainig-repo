@@ -32,6 +32,7 @@ document.querySelector('.buttons').onclick = (event) => {
     if (digit.includes(key)) {
         a += key;
         console.log(a, b, sign);
+        out.textContent = a;
     }
 
 }
