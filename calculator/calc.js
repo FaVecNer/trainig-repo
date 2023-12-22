@@ -53,4 +53,16 @@ document.querySelector('.buttons').onclick = (event) => {
         console.log(a, b, sign);
         return;
     }
+
+    //нажато =
+    if (key === '=') {
+        switch (sign) {
+            case "^":
+                a = Math.pow(a, b);
+                break;
+        }
+        finish = true;
+        out.textContent = a;
+        console.log(a, b, sign);
+    }
 }
