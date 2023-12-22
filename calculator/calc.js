@@ -14,7 +14,7 @@ function clearAll() {
     let b = '';
     let sign = '';
     let finish = false;
-    our.textContent = 0;
+    out.textContent = 0;
 }
 
 document.querySelector('.C').onclick = clearAll;
