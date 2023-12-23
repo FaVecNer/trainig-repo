@@ -2,7 +2,7 @@
   "name": "development",
   "version": "1.0.0",
   "description": "development",
-  "main": "index.js",
+  "main": "calc.js",
   "type": "module",
   "directories": {
     "test": "tests"
