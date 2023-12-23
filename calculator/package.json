@@ -2,7 +2,7 @@
   "name": "development",
   "version": "1.0.0",
   "description": "development",
-  "main": "calc.js",
+  "main": "Exponentation.js",
   "type": "module",
   "directories": {
     "test": "tests"
