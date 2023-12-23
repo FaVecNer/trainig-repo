@@ -61,7 +61,7 @@ document.querySelector('.buttons').onclick = (event) => {
         if (b === '') b = a;
         switch (sign) {
             case "^":
-                a = math.exponentation(a, b);
+                a = math.Pow(a, b);
                 break;
         }
         finish = true;
