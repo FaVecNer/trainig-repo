@@ -60,7 +60,7 @@ document.querySelector('.buttons').onclick = (event) => {
         if (b === '') b = a;
         switch (sign) {
             case "^":
-                a = Math.Pow(a, b);
+                a = Math.pow(a, b);
                 break;
         }
         finish = true;
