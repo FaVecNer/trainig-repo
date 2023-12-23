@@ -5,7 +5,5 @@ export function exponentation(a, b) {
     else {
 
     }
-    let a = '';
-    let b = '';
     return Math.pow(a, b);
 }
