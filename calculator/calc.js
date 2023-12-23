@@ -61,7 +61,7 @@ document.querySelector('.buttons').onclick = (event) => {
         if (b === '') b = a;
         switch (sign) {
             case "^":
-                a = exponentation;
+                a = exponentation(a, b);
                 break;
         }
         finish = true;
