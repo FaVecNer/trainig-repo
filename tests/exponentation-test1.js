@@ -5,6 +5,6 @@ export function exponentationTest1(a, b) {
         console.log("Successful test" + otv)
     }
     else {
-        console.error("Test failed" + otv)
+        console.error("Test failed try new" + otv)
     }
 }
