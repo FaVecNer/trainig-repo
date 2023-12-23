@@ -17,6 +17,6 @@ export class exponentationTest {
         exponentationTest4(0, 0)
     }
     static test5() {
-        exponentationTest5(NaN, undefined)
+        var otv = exponentationTest5(NaN, undefined)
     }
 }
