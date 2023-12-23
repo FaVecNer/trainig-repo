@@ -2,7 +2,7 @@ let a = ''; //first num
 let b = ''; //second num
 let sign = '';//знак операции
 let finish = false;
-
+import { exponentation } from '../calculator/Exponentation.js'
 const digit = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.'];
 const action = ['-', '+', 'X', '/', '^'];
 
@@ -61,7 +61,7 @@ document.querySelector('.buttons').onclick = (event) => {
         if (b === '') b = a;
         switch (sign) {
             case "^":
-                a = Math.pow(a, b);
+                a = exponentation;
                 break;
         }
         finish = true;
