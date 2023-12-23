@@ -1,8 +1,8 @@
 {
-  "name": "calc",
+  "name": "exponentatiton",
   "version": "1.0.0",
-  "description": "calc",
-  "main": "calc.js",
+  "description": "exponentation",
+  "main": "exponentation.js",
   "type": "module",
   "directories": {
     "test": "tests"
