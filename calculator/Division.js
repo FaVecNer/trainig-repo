@@ -1,6 +1,6 @@
 let resultat;
 let multiinput = false;
-function divide(Numb1 = String, Numb2 = String, flush = false) {
+function divide(flush = false) {
     try {
         if (flush == true) {
             Numb1 = Numb2 = resultat = 0;
