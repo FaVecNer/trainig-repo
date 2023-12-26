@@ -1,4 +1,5 @@
 import { exponentation } from './Exponentation.js';
+console.log(exponentation(5, 2));
 let a = ''; //first num
 let b = ''; //second num
 let sign = '';//знак операции
