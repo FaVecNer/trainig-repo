@@ -1,5 +1,4 @@
 import { exponentation } from "./Exponentation";
-exponentation = exponentation(a, b);
 let a = ''; //first num
 let b = ''; //second num
 let sign = '';//знак операции
