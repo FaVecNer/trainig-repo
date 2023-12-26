@@ -1,6 +1,6 @@
 let resultat;
 let multiinput = false;
-function divide(flush = false) {
+function divide(Numb1 = Number, Numb2 = Number, flush = false) {
     try {
         if (flush == true) {
             Numb1 = Numb2 = resultat = 0;
@@ -8,7 +8,7 @@ function divide(flush = false) {
             return resultat;
         }
 
-        if (Numb2 == String || multiinput == false) {
+        if (Numb2 == Number || multiinput == false) {
             multiinput = true
             return Numb1; // Если пользователь ещё не ввёл значение и нажимает на деление, то ему возвращается 1 результат
         }
