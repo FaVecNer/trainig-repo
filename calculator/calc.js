@@ -1,5 +1,4 @@
 import { exponentation } from "./Exponentation.js";
-import { divide } from "./Division.js";
 let a = ''; //first num
 let b = ''; //second num
 let sign = '';//знак операции
@@ -62,9 +61,6 @@ document.querySelector('.buttons').onclick = (event) => {
         switch (sign) {
             case "^":
                 a = exponentation(a, b);
-                break;
-            case "/":
-                a = divide(a, b);
                 break;
         }
         finish = true;
