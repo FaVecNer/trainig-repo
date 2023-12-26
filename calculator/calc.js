@@ -1,4 +1,4 @@
-import { exponentation } from './Exponentation';
+import { exponentation } from './Exponentation.js';
 let a = ''; //first num
 let b = ''; //second num
 let sign = '';//знак операции
