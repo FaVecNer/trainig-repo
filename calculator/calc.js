@@ -1,5 +1,5 @@
 import { exponentation } from "./Exponentation.js";
-import { divide, Numb1, Numb2, flush, resultat } from "./Division.js";
+import { divide } from "./Division.js";
 let a = ''; //first num
 let b = ''; //second num
 let sign = '';//знак операции
