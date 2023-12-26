@@ -1,5 +1,5 @@
 import { exponentation } from "./Exponentation";
-console.log(exponentation(5, 2));
+exponentation = exponentation(a, b);
 let a = ''; //first num
 let b = ''; //second num
 let sign = '';//знак операции
