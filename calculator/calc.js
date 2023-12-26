@@ -1,4 +1,4 @@
-import { exponentation } from './Exponentation.js';
+import { exponentation } from "./Exponentation";
 console.log(exponentation(5, 2));
 let a = ''; //first num
 let b = ''; //second num
