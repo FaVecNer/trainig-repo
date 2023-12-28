@@ -13,7 +13,6 @@
 
 .calc-screen {
     height: 125px;
-    padding: 10px;
     display: grid;
     justify-items: end;
     align-items: end;
@@ -21,9 +20,13 @@
 }
 
 .calc-screen input {
-    text-align: right;
-    font-size: 4rem;
-    margin: 0;
+    font-size: 25px;
+    height: 125px;
+    width: 300px;
+    background: #000;
+    color: #fff;
+    border-color: #ff9501;
+    text-align: center;
 }
 
 .buttons {
