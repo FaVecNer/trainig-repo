@@ -1,6 +1,6 @@
 import { exponentation } from "./Exponentation.js";
 import { subtraction } from "./subtraction.js";
-let a = ''; //first num
+let a = '';
 const digit = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.', '-', '+', '*', '/', '^', '(', ')'];
 //экран
 var out = document.getElementById('display');
@@ -16,7 +16,7 @@ document.querySelector('.buttons').onclick = (event) => {
     if (!event.target.classList.contains('btn')) return;
     //Нажато очищение C
     if (event.target.classList.contains('C')) return;
-    out.textContent = a;
+    a = out.value;
     //получаю нажатую кнопку
     const key = event.target.textContent;
     //если нажаты кнопки 0-9 или . 
